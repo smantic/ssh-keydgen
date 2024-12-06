@@ -29,7 +29,20 @@ COPYRIGHT:
    (c) 2018 cornfeedhobo
 ```
 
+## Installation
 
+### Build from source
+```sh
+git clone github.com/cornfeedhobo/ssh-keydgen
+cd ssh-keydgen && go build .
+```
+OR
+
+```sh
+go install github.com/cornfeedhobo/ssh-keydgen
+```
+
+Make sure $GOPATH/bin is in your path if you use go install.
 
 ## Usage
 
@@ -57,7 +70,7 @@ COPYRIGHT:
 
 ### What Go versions are supported?
 
-Go 1.9 or later
+It is recommended to always use the lastest go version to build, but anything after Go 1.20 will work.
 
 
 ### How can I verify the generated key is valid?
